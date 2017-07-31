@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.myjsonpost.Main2Activity">
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/tv1"
+        android:textSize="15dp"
+        android:text="@string/hai"/>
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/tv2"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/tv1"
+        android:layout_toEndOf="@+id/tv1" />
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/tv3"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/tv2"
+        android:layout_toEndOf="@+id/tv2"
+        android:layout_alignParentTop="true" />
+<TextView
+    android:layout_width="250dp"
+    android:layout_height="50dp"
+    android:id="@+id/tv4"
+    android:textSize="18dp"
+    android:textStyle="bold"
+    android:layout_below="@+id/tv2"
+    android:layout_toRightOf="@+id/tv1"
+    android:layout_toEndOf="@+id/tv1" />
+</RelativeLayout>
